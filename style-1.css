@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    background-color: transparent;
+}
+
+.container {
+    width: 80%;
+    height: 30vh;
+    border: 2px solid black;
+    display: flex;
+    margin-top: 35px;
+    margin-left: 15px;
+    flex-direction: row;
+    background-color: transparent;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+
+.header {
+    padding-top: 15px;
+    padding-left: 15px;
+
+}
+
+.title-header {
+    text-decoration: underline;
+}
+
+.para {
+    padding-top: 35px;
+    font-size: 26px;
+}
+
+.link-more {
+    font-size: 25px;
+    padding-top: 25px;
+}
+
+.content {
+    width: 40%;
+    display: flex;
+    height: 40vh;
+    margin-top: 15px;
+    padding-left: 15px;
+    margin-left: 15px;
+
+}
+
+.mid-heading {
+    text-decoration: underline;
+    padding-top: 10px;
+    text-align: left;
+}
+
+.mid-image-dog {
+    padding-top: 50px;
+    text-align: left;
+    
+    margin-left: -72px;
+
+}
+
+.more {
+    margin-left: 25px;
+    font-weight: bold;
+    margin-top: -5px;
+}
+
+.footer {
+    display: flex;
+    width: 30%;
+    border: 2px solid black;
+    margin-top: 15px;
+    margin-left: 15px;
+    height: 20vh;
+    margin-bottom: 35px;
+
+}
+
+.heading-3 {
+    text-decoration: underline;
+    padding-top: 15px;
+    padding-left: 15px;
+
+}
+
+.footer .list {
+    padding-top: 65px;
+    margin-left: -45px;   
+    
+}
